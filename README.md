@@ -10,9 +10,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
+|Day 1| Priority Matrix / Timeline `backend` | Incomplete
 |Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| Core Application Structure | Incomplete
+|Day 3| Deploy backend | Incomplete 
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches and Present | Incomplete
 
@@ -20,25 +21,16 @@ You are **responsible** for scheduling time with your squad to seek approval for
 MUSIC JOURNAL
 An app that allows the blog owner to review new music and, the visitor to discover new music.
 USER STORY:
-The editor will login
+The editor will login and have access to create, edit and destroy the music review. Users will be able to go on the app and view the content.
+POST MVP:
+Multiple visitors will be able to login and leave their coments on reviews. 
+
 
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Suresh had used in class](https://docs.google.com/spreadsheets/d/1GKj0dpDS6maIhMR8e5oU5CzS_rvlJuWESEXH36iDz6Q/edit#gid=0)
 
-## Wireframes
-
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
-- [Mobile](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/mobile.png)
-- [Tablet](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/nav-highlight.gif)
-- [Desktop](https://git.generalassemb.ly/SEIR-629/project-1-portfolio/blob/master/readme-assets/desktop.png)
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
 
 
 ## Time/Priority Matrix 
@@ -55,16 +47,18 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
+#### MVP
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Use ruby on rails 
+- Use an sql database using postgres 
+- Create editor login
+- Allow editor full C.R.U.D functionality
+- Deploy on heroku
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Allow visitors login access 
+- Allow visitors full C.R.U.D functionality for their posts
 
 ## Functional Components
 
@@ -75,29 +69,23 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 15.5hrs| -hrs | -hrs |
+| Create user model | H | 1hr | 1.5hr | -hr|
+| Give user C.R.U.D functionality | H | 2hr | -hr | -hr|
+| Authorize user | H | 2hr | 2hr | -hr|
+| Deploy to heroku | H | 1hr| -hr | -hr |
+| Troubleshooting/Research| H | 10hr | 2hr | -hr|
+| Data modeling | H | 3hrs| 2hr | -hr |
+| Total | H | 19hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 1hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Materialize | H | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
-| Make own icon | L | 4hr | -hr | -hr|
-| Total | H | 20hrs| -hrs | -hrs |
+| Allow for multiple users | L | 3hr | -hr | -hr|
+| Give users C.R.U.D functionality | L | 3hr | -hr | -hr|
+| Add search functionality via tags | L | 5hr | -hr | -hr|
+| Total | H | 11hrs| -hrs | -hrs |
 
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ 
 
 ## Code Snippet
 
