@@ -24,6 +24,10 @@ default: &default
 development:
   <<: *default
   database: music_journal_development
+  username: test8
+  password: test8
+  port: 5432
+  host: localhost
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -58,6 +62,10 @@ development:
 test:
   <<: *default
   database: music_journal_test
+  username: test8
+  password: test8
+  port: 5432
+  host: localhost
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -81,5 +89,5 @@ test:
 production:
   <<: *default
   database: music_journal_production
-  username: music_journal
-  password: <%= ENV['MUSIC_JOURNAL_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
