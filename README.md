@@ -1,24 +1,90 @@
-# README
+# Project Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Schedule
 
-Things you may want to cover:
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Incomplete
+|Day 1| Priority Matrix / Timeline `backend` | Incomplete
+|Day 2| Working RestAPI | Incomplete
+|Day 3| Core Application Structure | Incomplete
+|Day 3| Deploy backend | Complete 
+|Day 4| MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches and Present | Incomplete
 
-* Ruby version
 
-* System dependencies
+## Project Description
+MUSIC JOURNAL
+An app that allows the blog owner to review new music and, the visitor to discover new music.
 
-* Configuration
+USER STORY:
+The editor will login and have access to create, edit and destroy the music review. Users will be able to go on the app and view the content.
 
-* Database creation
+POST MVP:
+Multiple visitors will be able to login and leave their comments on reviews. 
 
-* Database initialization
 
-* How to run the test suite
+## App Build-out Links 
+Front-end deployed URL:  a-music-journal.netlify.app
+Front-end GitHub: https://github.com/infiniteloom/project-3-frontend
+Back-end deployed URL: https://amusicjournal.herokuapp.com/
+Back-end repo: https://github.com/infiniteloom/project-3-backend
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Time/Priority Matrix 
 
-* ...
+Link to Cloudinary : 
+
+
+
+#### MVP
+
+- Use ruby on rails 
+- Use an sql database using postgres 
+- Create editor login
+- Allow editor full C.R.U.D functionality
+- Deploy on heroku
+
+#### PostMVP 
+
+- Allow visitors login access 
+- Allow visitors full C.R.U.D functionality for their posts
+
+## Functional Components
+#### MVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Create user model | H | 1hr | 1.5hr | -hr|
+| Give user C.R.U.D functionality | H | 2hr | -hr | -hr|
+| Authorize user | H | 2hr | 2hr | -hr|
+| Deploy to heroku | H | 1hr| -hr | -hr |
+| Troubleshooting/Research| H | 10hr | 2hr | -hr|
+| Data modeling | H | 3hrs| 2hr | -hr |
+| Total | H | 19hrs| -hrs | -hrs |
+
+#### PostMVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Allow for multiple users | L | 3hr | -hr | -hr|
+| Give users C.R.U.D functionality | L | 3hr | -hr | -hr|
+| Add search functionality via tags | L | 5hr | -hr | -hr|
+| Total | H | 11hrs| -hrs | -hrs |
+
+ 
+
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
+
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
+
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
