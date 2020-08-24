@@ -4,8 +4,8 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Priority Matrix / Timeline `backend` | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Priority Matrix / Timeline `backend` | Complete
 |Day 2| Working RestAPI | Incomplete
 |Day 3| Core Application Structure | Incomplete
 |Day 3| Deploy backend | Complete 
@@ -25,15 +25,15 @@ Multiple visitors will be able to login and leave their comments on reviews.
 
 
 ## App Build-out Links 
-Front-end deployed URL:  a-music-journal.netlify.app
-Front-end GitHub: https://github.com/infiniteloom/project-3-frontend
-Back-end deployed URL: https://amusicjournal.herokuapp.com/
-Back-end repo: https://github.com/infiniteloom/project-3-backend
+Front-end deployed URL:  (a-music-journal.netlify.app)
+[Front-end GitHub Repo](https://github.com/infiniteloom/project-3-frontend)
+Back-end deployed URL: (https://amusicjournal.herokuapp.com/)
+[Back-end GitHub Repo](https://github.com/infiniteloom/project-3-backend)
 
 
 ## Time/Priority Matrix 
 
-Link to Cloudinary : 
+[Time and Priority Matrix](https://res.cloudinary.com/dinqukx6a/image/upload/v1598235735/Project%203/Music_Journal_TPM_backend_i50jc6.jpg)
 
 
 
@@ -52,18 +52,18 @@ Link to Cloudinary :
 
 ## Functional Components
 #### MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create user model | H | 1hr | 1.5hr | -hr|
+| Create user model | H | 1hr | .5hr | -hr|
 | Give user C.R.U.D functionality | H | 2hr | -hr | -hr|
-| Authorize user | H | 2hr | 2hr | -hr|
-| Deploy to heroku | H | 1hr| -hr | -hr |
+| Authorize user | H | 2hr | .5hr | -hr|
+| Deploy to heroku | H | 1hr| .5hr | -hr |
 | Troubleshooting/Research| H | 10hr | 2hr | -hr|
-| Data modeling | H | 3hrs| 2hr | -hr |
-| Total | H | 19hrs| -hrs | -hrs |
+| Data modeling | H | 3hrs| .5hr | -hr |
+| Total | H | 19hrs| 2hrs | -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Allow for multiple users | L | 3hr | -hr | -hr|
 | Give users C.R.U.D functionality | L | 3hr | -hr | -hr|
