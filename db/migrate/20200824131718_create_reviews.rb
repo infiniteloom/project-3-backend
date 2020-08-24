@@ -9,8 +9,8 @@ class CreateReviews < ActiveRecord::Migration[6.0]
       t.text :review_text
       t.string :img_url
       t.string :profile_pic_url
-
       t.timestamps
     end
   end
 end
+
