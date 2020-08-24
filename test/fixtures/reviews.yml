@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  created_by: 
+  artist_name: MyString
+  album_title: MyString
+  release_date: MyString
+  record_label: MyString
+  review_text: MyText
+  img_url: MyString
+  profile_pic_url: MyString
+
+two:
+  created_by: 
+  artist_name: MyString
+  album_title: MyString
+  release_date: MyString
+  record_label: MyString
+  review_text: MyText
+  img_url: MyString
+  profile_pic_url: MyString
