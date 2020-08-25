@@ -26,7 +26,7 @@ end
 
 
 
-# user = User.create(username: "teamrose", password: "jrose")
+user = User.create(username: "teamrose", password: "jrose")
 
 
 #eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.oT7kSePnYs7eVIsRIzIi0UEC7XBclsrO3qrnXwic8Zg
