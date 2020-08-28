@@ -58,12 +58,12 @@ Multiple visitors will be able to login and leave their comments on reviews.
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create user model | H | 1hr | .5hr | -hr|
-| Give user C.R.U.D functionality | H | 2hr | -hr | -hr|
-| Authorize user | H | 2hr | .5hr | -hr|
-| Deploy to heroku | H | 1hr| .5hr | -hr |
-| Troubleshooting/Research| H | 10hr | 2hr | -hr|
-| Data modeling | H | 3hrs| .5hr | -hr |
+| Create user model | H | 1hr | .5hr | 2hr|
+| Give user C.R.U.D functionality | H | 2hr | 6hr | 10hr|
+| Authorize user | H | 2hr | .5hr | 2hr|
+| Deploy to heroku | H | 1hr| .5hr | 1hr |
+| Troubleshooting/Research| H | 10hr | 2hr | 10hr|
+| Data modeling | H | 3hrs| .5hr | 1hr |
 | Total | H | 19hrs| 2hrs | -hrs |
 
 #### PostMVP
