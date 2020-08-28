@@ -26,9 +26,9 @@ Multiple visitors will be able to login and leave their comments on reviews.
 
 
 ## App Build-out Links 
-Front-end deployed URL:  (https://a-music-journal.netlify.app)
+[Front-end deployed URL](https://a-music-journal.netlify.app)
 [Front-end GitHub Repo](https://github.com/infiniteloom/project-3-frontend)
-Back-end deployed URL: (https://amusicjournal.herokuapp.com/)
+[Back-end deployed URL](https://amusicjournal.herokuapp.com/)
 [Back-end GitHub Repo](https://github.com/infiniteloom/project-3-backend)
 
 
