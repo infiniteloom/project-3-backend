@@ -9,7 +9,7 @@ class CreateReviews < ActiveRecord::Migration[6.0]
       t.text :review_text
       t.string :img_url
       t.string :profile_pic_url
-      t.references :user, null: false, foreign_key: true
+      # t.references :user, null: false, foreign_key: true
       t.timestamps
     end
   end
