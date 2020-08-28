@@ -6,10 +6,10 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Priority Matrix / Timeline `backend` | Complete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure | Incomplete
+|Day 2| Working RestAPI | Complete
+|Day 3| Core Application Structure | Complete
 |Day 3| Deploy backend | Complete 
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 
