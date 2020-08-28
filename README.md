@@ -5,7 +5,7 @@
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Priority Matrix / Timeline `backend` | Complete
+|Day 1| Priority Matrix / Timeline | Complete
 |Day 2| Working RestAPI | Complete
 |Day 3| Core Application Structure | Complete
 |Day 3| Deploy backend | Complete 
@@ -15,6 +15,7 @@
 
 ## Project Description
 MUSIC JOURNAL
+
 An app that allows the blog owner to review new music and, the visitor to discover new music.
 
 USER STORY:
