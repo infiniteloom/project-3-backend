@@ -5,16 +5,17 @@
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Priority Matrix / Timeline `backend` | Complete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure | Incomplete
+|Day 1| Priority Matrix / Timeline | Complete
+|Day 2| Working RestAPI | Complete
+|Day 3| Core Application Structure | Complete
 |Day 3| Deploy backend | Complete 
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 
 ## Project Description
 MUSIC JOURNAL
+
 An app that allows the blog owner to review new music and, the visitor to discover new music.
 
 USER STORY:
@@ -25,9 +26,12 @@ Multiple visitors will be able to login and leave their comments on reviews.
 
 
 ## App Build-out Links 
-Front-end deployed URL:  (a-music-journal.netlify.app)
+[Front-end deployed URL](https://a-music-journal.netlify.app)
+
 [Front-end GitHub Repo](https://github.com/infiniteloom/project-3-frontend)
-Back-end deployed URL: (https://amusicjournal.herokuapp.com/)
+
+[Back-end deployed URL](https://amusicjournal.herokuapp.com/)
+
 [Back-end GitHub Repo](https://github.com/infiniteloom/project-3-backend)
 
 
