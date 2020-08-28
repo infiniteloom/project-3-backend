@@ -64,31 +64,26 @@ Multiple visitors will be able to login and leave their comments on reviews.
 | Deploy to heroku | H | 1hr| .5hr | 1hr |
 | Troubleshooting/Research| H | 10hr | 2hr | 10hr|
 | Data modeling | H | 3hrs| .5hr | 1hr |
-| Total | H | 19hrs| 2hrs | -hrs |
+| Total | H | 19hrs| 2hrs | 26hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Allow for multiple users | L | 3hr | -hr | -hr|
-| Give users C.R.U.D functionality | L | 3hr | -hr | -hr|
-| Add search functionality via tags | L | 5hr | -hr | -hr|
-| Total | H | 11hrs| -hrs | -hrs |
+| Allow for multiple users | L | 3hr | 3hr | 3hr|
+| Give users C.R.U.D functionality | L | 3hr | N/A | N/A|
+| Add search functionality via tags | L | 5hr | N/A | N/A|
+| Total | H | 11hrs| N/A | 3hrs |
 
  
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+Able to import a whole excell sheet as data.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+require 'csv'
+csv_text = File.read(Rails.root.join('lib','seeds', 'journal_seed.csv'))
+csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+
 ```
 
-## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
